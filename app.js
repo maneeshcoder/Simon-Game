@@ -8,7 +8,6 @@ let h2 = document.querySelector("h2");
 document.addEventListener("keypress",function(){
     if(started ==false){
         started=true;
-        console.log("game started");
 
         levelup();
     }
@@ -44,7 +43,6 @@ function levelup(){
     let radncolor =color[randidx];
     let randbtn = document.querySelector(`.${radncolor}`);
     gameseq.push(radncolor);
-    console.log(gameseq);
     flashbtn(randbtn);
 }
 function check(idx){
