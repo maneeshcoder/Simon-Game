@@ -40,7 +40,7 @@ function levelup(){
     userseq=[];
     level++;
     h2.innerText=`level ${level}`;
-    let randidx = Math.floor(Math.random()*3);
+    let randidx = Math.floor(Math.random()*4);
     let radncolor =color[randidx];
     let randbtn = document.querySelector(`.${radncolor}`);
     gameseq.push(radncolor);
