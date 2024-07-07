@@ -35,3 +35,33 @@ body{
 .userflash {
     background-color: green;
 }
+
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .btn {
+        height: 150px;
+        width: 150px;
+        margin: 0.5rem;
+    }
+
+    h1, h2 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .btn {
+        height: 100px;
+        width: 100px;
+        margin: 0.25rem;
+    }
+
+    h1 {
+        font-size: 1.25rem;
+    }
+
+    h2 {
+        font-size: 1rem;
+    }
+}
